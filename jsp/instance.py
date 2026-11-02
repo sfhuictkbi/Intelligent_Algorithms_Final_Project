@@ -7,8 +7,11 @@ import os
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
-# 默认数据集根目录，可用环境变量 JSP_DATA 覆盖
-DEFAULT_DATA_ROOT = r"C:\Users\占\Desktop\作业\2026-2027学年第一学期\智能算法\dazuoye\JSP基准数据集"
+
+# 默认数据集根目录（项目根目录下的 JSP基准数据集），可用环境变量 JSP_DATA 覆盖
+DEFAULT_DATA_ROOT = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "JSP基准数据集"
+)
 
 # 文献报告最优 makespan（来源：OR-Library / job-shop-lib 基准库索引表）
 FALLBACK_OPTIMUM = {
