@@ -1,0 +1,15 @@
+# ===== macOS 系统文件 =====
+.DS_Store
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== IDE（JetBrains PyCharm/IDEA）=====
+.idea/
+
+# ===== WorkBuddy 本地工作数据 =====
+.workbuddy/
