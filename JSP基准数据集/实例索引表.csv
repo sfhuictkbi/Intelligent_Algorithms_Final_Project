@@ -1,0 +1,163 @@
+﻿实例名,规模(工件×机器),文献最优值,最优值来源
+abz5,10×10,1234,"J. Adams, E. Balas, D. Zawack. 'The shifting bottleneck proc"
+abz6,10×10,943,"J. Adams, E. Balas, D. Zawack. 'The shifting bottleneck proc"
+abz7,20×15,656,"J. Adams, E. Balas, D. Zawack. 'The shifting bottleneck proc"
+abz8,20×15,,"J. Adams, E. Balas, D. Zawack. 'The shifting bottleneck proc"
+abz9,20×15,678,"J. Adams, E. Balas, D. Zawack. 'The shifting bottleneck proc"
+ft06,6×6,55,"J.F. Muth, G.L. Thompson. 'Industrial scheduling.', Englewoo"
+ft10,10×10,930,"J.F. Muth, G.L. Thompson. 'Industrial scheduling.', Englewoo"
+ft20,20×5,1165,"J.F. Muth, G.L. Thompson. 'Industrial scheduling.', Englewoo"
+la01,10×5,666,S. Lawrence. 'Resource constrained project scheduling: an ex
+la02,10×5,655,S. Lawrence. 'Resource constrained project scheduling: an ex
+la03,10×5,597,S. Lawrence. 'Resource constrained project scheduling: an ex
+la04,10×5,590,S. Lawrence. 'Resource constrained project scheduling: an ex
+la05,10×5,593,S. Lawrence. 'Resource constrained project scheduling: an ex
+la06,15×5,926,S. Lawrence. 'Resource constrained project scheduling: an ex
+la07,15×5,890,S. Lawrence. 'Resource constrained project scheduling: an ex
+la08,15×5,863,S. Lawrence. 'Resource constrained project scheduling: an ex
+la09,15×5,951,S. Lawrence. 'Resource constrained project scheduling: an ex
+la10,15×5,958,S. Lawrence. 'Resource constrained project scheduling: an ex
+la11,20×5,1222,S. Lawrence. 'Resource constrained project scheduling: an ex
+la12,20×5,1039,S. Lawrence. 'Resource constrained project scheduling: an ex
+la13,20×5,1150,S. Lawrence. 'Resource constrained project scheduling: an ex
+la14,20×5,1292,S. Lawrence. 'Resource constrained project scheduling: an ex
+la15,20×5,1207,S. Lawrence. 'Resource constrained project scheduling: an ex
+la16,10×10,945,S. Lawrence. 'Resource constrained project scheduling: an ex
+la17,10×10,784,S. Lawrence. 'Resource constrained project scheduling: an ex
+la18,10×10,848,S. Lawrence. 'Resource constrained project scheduling: an ex
+la19,10×10,842,S. Lawrence. 'Resource constrained project scheduling: an ex
+la20,10×10,902,S. Lawrence. 'Resource constrained project scheduling: an ex
+la21,15×10,1046,S. Lawrence. 'Resource constrained project scheduling: an ex
+la22,15×10,927,S. Lawrence. 'Resource constrained project scheduling: an ex
+la23,15×10,1032,S. Lawrence. 'Resource constrained project scheduling: an ex
+la24,15×10,935,S. Lawrence. 'Resource constrained project scheduling: an ex
+la25,15×10,977,S. Lawrence. 'Resource constrained project scheduling: an ex
+la26,20×10,1218,S. Lawrence. 'Resource constrained project scheduling: an ex
+la27,20×10,1235,S. Lawrence. 'Resource constrained project scheduling: an ex
+la28,20×10,1216,S. Lawrence. 'Resource constrained project scheduling: an ex
+la29,20×10,1152,S. Lawrence. 'Resource constrained project scheduling: an ex
+la30,20×10,1355,S. Lawrence. 'Resource constrained project scheduling: an ex
+la31,30×10,1784,S. Lawrence. 'Resource constrained project scheduling: an ex
+la32,30×10,1850,S. Lawrence. 'Resource constrained project scheduling: an ex
+la33,30×10,1719,S. Lawrence. 'Resource constrained project scheduling: an ex
+la34,30×10,1721,S. Lawrence. 'Resource constrained project scheduling: an ex
+la35,30×10,1888,S. Lawrence. 'Resource constrained project scheduling: an ex
+la36,15×15,1268,S. Lawrence. 'Resource constrained project scheduling: an ex
+la37,15×15,1397,S. Lawrence. 'Resource constrained project scheduling: an ex
+la38,15×15,1196,S. Lawrence. 'Resource constrained project scheduling: an ex
+la39,15×15,1233,S. Lawrence. 'Resource constrained project scheduling: an ex
+la40,15×15,1222,S. Lawrence. 'Resource constrained project scheduling: an ex
+orb01,10×10,1059,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb02,10×10,888,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb03,10×10,1005,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb04,10×10,1005,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb05,10×10,887,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb06,10×10,1010,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb07,10×10,397,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb08,10×10,899,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb09,10×10,934,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+orb10,10×10,944,"D. Applegate, W. Cook. 'A computational study of job-shop sc"
+swv01,20×10,1407,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv02,20×10,1475,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv03,20×10,1398,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv04,20×10,1464,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv05,20×10,1424,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv06,20×15,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv07,20×15,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv08,20×15,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv09,20×15,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv10,20×15,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv11,50×10,2983,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv12,50×10,,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv13,50×10,3104,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv14,50×10,2968,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv15,50×10,2885,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv16,50×10,2924,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv17,50×10,2794,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv18,50×10,2852,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv19,50×10,2843,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+swv20,50×10,2823,"R.H. Storer, S.D. Wu, R. Vaccari. 'New search spaces for seq"
+ta01,15×15,1231,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta02,15×15,1244,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta03,15×15,1218,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta04,15×15,1175,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta05,15×15,1224,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta06,15×15,1238,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta07,15×15,1227,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta08,15×15,1217,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta09,15×15,1274,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta10,15×15,1241,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta11,20×15,1357,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta12,20×15,1367,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta13,20×15,1342,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta14,20×15,1345,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta15,20×15,1339,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta16,20×15,1360,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta17,20×15,1462,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta18,20×15,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta19,20×15,1332,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta20,20×15,1348,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta21,20×20,1642,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta22,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta23,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta24,20×20,1644,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta25,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta26,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta27,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta28,20×20,1603,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta29,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta30,20×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta31,30×15,1764,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta32,30×15,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta33,30×15,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta34,30×15,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta35,30×15,2007,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta36,30×15,1819,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta37,30×15,1771,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta38,30×15,1673,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta39,30×15,1795,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta40,30×15,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta41,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta42,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta43,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta44,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta45,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta46,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta47,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta48,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta49,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta50,30×20,,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta51,50×15,2760,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta52,50×15,2756,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta53,50×15,2717,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta54,50×15,2839,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta55,50×15,2679,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta56,50×15,2781,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta57,50×15,2943,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta58,50×15,2885,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta59,50×15,2655,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta60,50×15,2723,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta61,50×20,2868,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta62,50×20,2869,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta63,50×20,2755,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta64,50×20,2702,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta65,50×20,2725,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta66,50×20,2845,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta67,50×20,2825,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta68,50×20,2784,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta69,50×20,3071,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta70,50×20,2995,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta71,100×20,5464,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta72,100×20,5181,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta73,100×20,5568,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta74,100×20,5339,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta75,100×20,5392,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta76,100×20,5342,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta77,100×20,5436,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta78,100×20,5394,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta79,100×20,5358,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+ta80,100×20,5183,"E. Taillard. 'Benchmarks for basic scheduling problems', Eur"
+yn1,20×20,884,"T. Yamada, R. Nakano. 'A genetic algorithm applicable to lar"
+yn2,20×20,,"T. Yamada, R. Nakano. 'A genetic algorithm applicable to lar"
+yn3,20×20,,"T. Yamada, R. Nakano. 'A genetic algorithm applicable to lar"
+yn4,20×20,,"T. Yamada, R. Nakano. 'A genetic algorithm applicable to lar"
