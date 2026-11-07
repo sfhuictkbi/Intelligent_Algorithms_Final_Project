@@ -8,7 +8,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
 
-# 默认数据集根目录（项目根目录下的 JSP基准数据集），可用环境变量 JSP_DATA 覆盖
+# 默认数据集根目录（项目根目录下的 JSP基准数据集）
 DEFAULT_DATA_ROOT = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "JSP基准数据集"
 )
@@ -20,10 +20,6 @@ FALLBACK_OPTIMUM = {
     "ta01": 1231, "ta11": 1357,
     "la06": 926, "la16": 945, "la26": 1218, "la31": 1784, "la36": 1268,
 }
-
-
-def data_root() -> str:
-    return os.environ.get("JSP_DATA", DEFAULT_DATA_ROOT)
 
 
 @dataclass
@@ -58,7 +54,7 @@ class Instance:
 
 def load_optima(root: str | None = None) -> Dict[str, int]:
     """从实例索引表.csv 读取全部文献最优值。"""
-    root = root or data_root()
+    root = root or DEFAULT_DATA_ROOT
     path = os.path.join(root, "实例索引表.csv")
     opt: Dict[str, int] = {}
     if os.path.exists(path):
@@ -79,9 +75,11 @@ def load_instance(name: str, root: str | None = None) -> Instance:
 
     第 1 行：n m；随后 n 行，每行 m 对「机器号(1-based) 加工时间」。
     """
-    root = root or data_root()
-    path = os.path.join(root, name[0:2] if name[:2] in
-                        ("ab", "ft", "la", "or", "sw", "ta", "yn") else "", f"{name}.txt")
+    root = root or DEFAULT_DATA_ROOT
+    # 实例文件所在子目录：按实例名前缀匹配（如 ft06→ft/、abz5→abz/、swv01→swv/）
+    SERIES_DIRS = ("abz", "ft", "la", "orb", "swv", "ta", "yn")
+    subdir = next((d for d in SERIES_DIRS if name.startswith(d)), "")
+    path = os.path.join(root, subdir, f"{name}.txt")
     if not os.path.exists(path):
         # 兜底：递归查找
         for d in os.listdir(root):

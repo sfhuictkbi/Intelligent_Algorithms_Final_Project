@@ -13,12 +13,8 @@
 pip install -r requirements.txt      # numpy matplotlib scipy ortools
 ```
 
-数据集：`JSP基准数据集/`（OR-Library 标准格式），默认路径写在
-`jsp/instance.py::DEFAULT_DATA_ROOT`，可用环境变量 `JSP_DATA` 覆盖：
-
-```bash
-set JSP_DATA=C:\path\to\JSP基准数据集
-```
+数据集：`JSP基准数据集/`（OR-Library 标准格式，已随仓库提供），
+路径解析见 `jsp/instance.py::DEFAULT_DATA_ROOT`。
 
 ## 2. 目录结构
 
