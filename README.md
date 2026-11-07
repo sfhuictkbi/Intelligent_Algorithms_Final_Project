@@ -101,6 +101,9 @@ pm = 0.05 + 0.15*(1-div) + 0.05*停滞比  ∈ [0.05, 0.2]  多样性低/停滞�
 
 ## 6. 运行方式
 
+以下命令在项目根目录执行；Windows 直接用 `python`，macOS/Linux 裸环境请用 `python3`
+（若已激活虚拟环境，两边都是 `python`）。
+
 ```bash
 python scripts/task1_verify.py       # 任务一：解析、甘特图、ft06 精确验证（约 10 秒）
 python scripts/task2_smoke.py        # 任务二：ft06 一致性测试（约 10 秒）
