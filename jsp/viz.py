@@ -11,14 +11,25 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib import font_manager
 
-# 中文字体（Windows 优先微软雅黑 / SimHei，找不到则退化为默认字体）
-for _f in ("Microsoft YaHei", "SimHei", "SimSun", "Noto Sans CJK SC"):
-    try:
-        font_manager.findfont(_f, fallback_to_default=False)
-        matplotlib.rcParams["font.sans-serif"] = [_f]
-        break
-    except Exception:
-        continue
+# 中文字体：Windows 优先微软雅黑 / SimHei，其次 macOS 常见中文字体，
+# 均未安装时退化为默认字体（中文将显示为方块，但不影响出图与保存）
+def _pick_cjk_font() -> Optional[str]:
+    """从候选字体中返回第一个已安装的，未找到返回 None。
+
+    直接查 fontManager 的已安装字体名集合，不依赖 findfont 的
+    fallback_to_default 等参数（该参数在新版 matplotlib 中已弃用）。
+    """
+    installed = {f.name for f in font_manager.fontManager.ttflist}
+    for name in ("Microsoft YaHei", "SimHei", "PingFang SC", "Heiti SC",
+                 "Noto Sans CJK SC", "Arial Unicode MS", "SimSun"):
+        if name in installed:
+            return name
+    return None
+
+
+_font = _pick_cjk_font()
+if _font is not None:
+    matplotlib.rcParams["font.sans-serif"] = [_font]
 matplotlib.rcParams["axes.unicode_minus"] = False
 
 RESULTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")

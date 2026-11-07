@@ -13,12 +13,8 @@
 pip install -r requirements.txt      # numpy matplotlib scipy ortools
 ```
 
-数据集：`JSP基准数据集/`（OR-Library 标准格式），默认路径写在
-`jsp/instance.py::DEFAULT_DATA_ROOT`，可用环境变量 `JSP_DATA` 覆盖：
-
-```bash
-set JSP_DATA=C:\path\to\JSP基准数据集
-```
+数据集：`JSP基准数据集/`（OR-Library 标准格式，已随仓库提供），
+路径解析见 `jsp/instance.py::DEFAULT_DATA_ROOT`。
 
 ## 2. 目录结构
 
@@ -104,6 +100,9 @@ pm = 0.05 + 0.15*(1-div) + 0.05*停滞比  ∈ [0.05, 0.2]  多样性低/停滞�
 其中 `div` 为种群个体与全局最优解的平均归一化距离（[0,1]），停滞比 = 无改进代数 / 50。
 
 ## 6. 运行方式
+
+以下命令在项目根目录执行；Windows 直接用 `python`，macOS/Linux 裸环境请用 `python3`
+（若已激活虚拟环境，两边都是 `python`）。
 
 ```bash
 python scripts/task1_verify.py       # 任务一：解析、甘特图、ft06 精确验证（约 10 秒）
